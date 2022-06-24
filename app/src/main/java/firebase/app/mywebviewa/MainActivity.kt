@@ -6,7 +6,7 @@ import android.view.KeyEvent
 import android.webkit.WebView
 
 class MainActivity : AppCompatActivity() {
-    private val direction :String = "http://10.0.2.2:81/Android/helloAndroid.html"
+    private val direction :String = "http://10.0.2.2:8080/Android/helloAndroid.html"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
